@@ -3,9 +3,9 @@
 Hello there, I'm Lucas Calabria 
 
 
-## Currently Studying
+## My Techs and Tools
 
-- Front-end: HTML, Css, Javascript e React
+- Front-end: HTML, Css, Javascript e React js.
 - Back-end: Nodejs.
 - Git e Github
 - Vs Code
