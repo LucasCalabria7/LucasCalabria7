@@ -1,30 +1,86 @@
-# Welcome to my World 🌐 
+<svg fill="none" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="800px" height="200">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>			
+				@keyframes gradientBackground {
+					0% {
+						background-position: 0% 50%;
+					}
+					50% {
+						background-position: 100% 50%;
+					}
+					100% {
+						background-position: 0% 50%;
+					}
+				}
+			
+				.container {
+					font-family:
+						system-ui,
+						-apple-system,
+						'Segoe UI',
+						Roboto,
+						Helvetica,
+						Arial,
+						sans-serif,
+						'Apple Color Emoji',
+						'Segoe UI Emoji';
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					margin: 0;
+					width: 100%;
+					height: 200px;
+					background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
+					background-size: 600% 400%;
+					animation: gradientBackground 10s ease infinite;
+					border-radius: 10px;
+					color: white;
+					text-align: center;
+				}
+        
+        .wrapper {
+          height: 200px;
+          /*This part is important for centering*/
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
 
-Hello there, I'm Lucas Calabria 
+        .typing-demo {
+          width: 37ch;
+          animation: typing 4s steps(37), blink .3s step-end infinite alternate;
+          white-space: nowrap;
+          overflow: hidden;
+          border-right: 3px solid;
+          font-family: monospace;
+          font-size: 2em;
+        }
 
+				.typing-demo b {
+					text-decoration: underline;
+				}
 
-## My Techs and Tools
-
-- Front-end: HTML, Css, Javascript e React js.
-- Back-end: Nodejs.
-- Git e Github
-- Vs Code
-
-## My areas
-
-- Software Enginner
-- Full-Stack
-- Web Developer
-
-## Hobbies
-
-- Watch Movies and series
-- Time with family and friends
-- Stream Platforms
-
-## Reach me
-
-- LinkedIn: https://www.linkedin.com/in/lucas-calabria-0a6070208/
-- Instagram: @lucas_calabria
-- Github: LucasCalabria7
-- Email: lucascalabria86@gmail.com
+        @keyframes typing {
+          from {
+            width: 0
+          }
+        }
+            
+        @keyframes blink {
+          50% {
+            border-color: transparent
+          }
+        }
+			</style>
+			<div class="container">
+        <div class="wrapper">
+            <div class="typing-demo">
+              Lucas Calabria, Welcome to my world!</b>.
+            </div>          
+        </div>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
